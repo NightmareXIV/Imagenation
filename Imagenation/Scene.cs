@@ -51,7 +51,7 @@ namespace Imagenation
                     var sw = (float)(ImGuiHelpers.MainViewport.Size.X - (float)tw.Width) / 100f;
                     var sh = (float)(ImGuiHelpers.MainViewport.Size.Y - (float)tw.Height) / 100f;
                     ImGui.SetCursorPos(new(sw * x.x, sh * x.y));
-                    ImGui.Image(tw.ImGuiHandle, new(tw.Width, tw.Height));
+                    ImGui.Image(tw.Handle, new(tw.Width, tw.Height));
                 }
             }
             P.Requests.RemoveAll(x => Environment.TickCount64 > x.DestroyAt);

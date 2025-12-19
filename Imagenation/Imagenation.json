@@ -6,5 +6,5 @@
     "Punchline": "An image drawing backend. To be used together with Triggernometry.",
     "ApplicableVersion": "any",
     "LoadPriority": 0,
-    "DalamudApiLevel": 12
+    "DalamudApiLevel": 13
 }
